@@ -1,0 +1,226 @@
+/* all pages */
+.app {
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color:  #154963;
+  /* height: 840px; */
+  padding-bottom: 100px;
+}
+#navbar {
+  background-color: #2a3132 !important;
+}
+.navbar-brand {
+  font-family: "Noto Serif", serif;
+  /* font-weight: 700; */
+}
+.nav-item {
+  font-family: "Asap", sans-serif;
+}
+#footer {
+  background-color: #2a3132 !important;
+}
+
+/* Home page */
+
+#bannerTitle {
+  margin-top: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: ivory;
+  letter-spacing: 0.1rem;
+  margin-left: 20px;
+}
+#mainBannerP {
+  margin-left: 20px;
+  color: ivory;
+  font-family: "Noto Serif", serif;
+  font-size: large;
+  align-items: center;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  line-height: 1.6;
+}
+#quoteP {
+  margin-left: 20px;
+  color: ivory;
+  font-family: "Asap", sans-serif;
+  font-size: large;
+  font-style: italic;
+}
+#referenceP {
+  margin-left: 20px;
+  color: ivory;
+  font-size: large;
+  font-family: "Asap", sans-serif;
+  font-weight: 500;
+}
+#imgHeadshot {
+  border-radius: 50%;
+  width: 200px;
+  float: right;
+  margin-top: 80px;
+  margin-right: 100px;
+}
+#list {
+  clear: both;
+  padding-top: 70px;
+  margin-left: 20px;
+  color: ivory;
+  font-size: 30px;
+  font-family: "Asap", sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+i {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: ivory;
+}
+.vl {
+  border-left: 6px solid ivory;
+  height: 190px;
+  margin-left: 20px;
+}
+.techTitle{
+  margin-top: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: ivory;
+  letter-spacing: 0.1rem;
+  margin-left: 20px;
+  font-size: larger;
+}
+#homeFooter {
+  padding-top: 20px;
+}
+.logo{
+  height: 100px;
+  background-color: ivory;
+  border-radius: 5%;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 30px;
+}
+/* portfolio page CSS */
+body{
+  height:fit-content;
+}
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 320px !important;
+  padding: 20px;
+  border-radius: 1rem;
+  height: 444px;
+}
+.card-img-top {
+  height: 190px;
+  border-radius: 1rem;
+}
+#portfolioBtn {
+  background-color: #154963 !important;
+  border: #154963 !important;
+}
+#portfolioBtn:hover {
+  background-color: #336b87 !important;
+}
+.btn-close{
+  background-color: #154963 !important;
+  border: #154963 !important;
+}
+.btn-close:hover{
+  background-color: #336b87 !important;
+}
+#modalLink {
+  color: black;
+}
+#modalLink:hover {
+  color: #336b87;
+}
+.fa-heart{
+  color: red;
+  padding: 3px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  body {
+    height: 3000px;
+    background-image: none !important;
+    background-color:  #1f5a77;
+  }
+  #imgHeadshot {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  #list {
+    padding-left: 150px;
+  }
+  .vl {
+    height: 200px;
+    border-left: 6px solid ivory;
+
+  }
+  .navbar-brand {
+    padding-left: 30px !important;
+  }
+  .imgCol {
+    height: 350px;
+  }
+  .imgCol img {
+    height: 350px;
+  }
+  .contactCol {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .navbar-brand {
+    padding-left: 20px !important;
+  }
+  body {
+    height: 3000px;
+    background-image: none !important;
+    background-color:  #1f5a77;
+  }
+  #list {
+    padding-left: 0px;
+    margin-bottom: 20px;
+  }
+  .vl {
+    margin-left: 0px;
+    height: 200px;
+    border-left: 6px solid ivory;
+  }
+  .card {
+    margin-left: 30px;
+  }
+  .imgCol {
+    height: 200px;
+  }
+  .imgCol img {
+    height: 200px;
+  }
+  #contactForm {
+    height: 375px;
+  }
+  .row>* {
+  padding-left: 0px !important;
+  }
+}
+@media screen and (min-width: 540px) {
+  .imgCol {
+    height: 350px;
+  }
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0 !important;
+}
+}
