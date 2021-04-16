@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { cards } from "./utils/db"
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <Home />
           </Route>
           <Route exact path="/projects">
-            <Projects />
+            <Projects cards={cards}/>
           </Route>
         </Switch>
         <Footer />

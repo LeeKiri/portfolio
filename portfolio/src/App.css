@@ -4,14 +4,17 @@
   background-position: center;
   background-size: cover;
   background-color:  #154963;
-  /* height: 840px; */
   padding-bottom: 100px;
 }
 #navbar {
   background-color: #2a3132 !important;
 }
+.navbar{
+  padding: 0px !important;
+}
 .navbar-brand {
   font-family: "Noto Serif", serif;
+  font-size: 2rem !important;
   /* font-weight: 700; */
 }
 .nav-item {
@@ -27,13 +30,13 @@
   margin-top: 30px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: ivory;
+  color:white;
   letter-spacing: 0.1rem;
   margin-left: 20px;
 }
 #mainBannerP {
   margin-left: 20px;
-  color: ivory;
+  color:white;
   font-family: "Noto Serif", serif;
   font-size: large;
   align-items: center;
@@ -43,14 +46,14 @@
 }
 #quoteP {
   margin-left: 20px;
-  color: ivory;
+  color:white;
   font-family: "Asap", sans-serif;
   font-size: large;
   font-style: italic;
 }
 #referenceP {
   margin-left: 20px;
-  color: ivory;
+  color:white;
   font-size: large;
   font-family: "Asap", sans-serif;
   font-weight: 500;
@@ -66,7 +69,7 @@
   clear: both;
   padding-top: 70px;
   margin-left: 20px;
-  color: ivory;
+  color:white;
   font-size: 30px;
   font-family: "Asap", sans-serif;
   font-weight: 500;
@@ -75,13 +78,14 @@
 i {
   padding-left: 15px;
   padding-right: 10px;
+  color:white;
 }
 a {
   text-decoration: none;
-  color: ivory;
+  color:white !important;
 }
 .vl {
-  border-left: 6px solid ivory;
+  border-left: 6px solidwhite;
   height: 190px;
   margin-left: 20px;
 }
@@ -89,7 +93,7 @@ a {
   margin-top: 30px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: ivory;
+  color:white;
   letter-spacing: 0.1rem;
   margin-left: 20px;
   font-size: larger;
@@ -99,11 +103,27 @@ a {
 }
 .logo{
   height: 100px;
-  background-color: ivory;
+  background-color:white;
   border-radius: 5%;
   padding: 10px;
   margin: 10px;
   margin-top: 30px;
+}
+.form{
+ max-width: 500px;
+ background-color: #336b87;
+ margin-left: 15px;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ padding: 40px;
+ border-radius: 1rem;
+}
+.formBtn {
+  background-color: #154963 !important;
+  border: #154963 !important;
+}
+.formBtn:hover {
+  background-color: #1a5775 !important;
 }
 /* portfolio page CSS */
 body{
@@ -114,29 +134,32 @@ body{
   margin-bottom: 20px;
   width: 320px !important;
   padding: 20px;
-  border-radius: 1rem;
+  border-radius: 1.5rem !important;
   height: 444px;
+}
+.card-text{
+  font-size: small !important;
 }
 .card-img-top {
   height: 190px;
-  border-radius: 1rem;
+  border-radius: 1rem !important;
 }
 #portfolioBtn {
   background-color: #154963 !important;
   border: #154963 !important;
 }
 #portfolioBtn:hover {
+  background-color: #206a8f !important;
+}
+#modalBtn{
+  background-color: #56a8d1 !important;
+  border: #66add1 !important;
+}
+#modalBtn:hover{
   background-color: #336b87 !important;
 }
-.btn-close{
-  background-color: #154963 !important;
-  border: #154963 !important;
-}
-.btn-close:hover{
-  background-color: #336b87 !important;
-}
-#modalLink {
-  color: black;
+.cardLink {
+  color: black !important;
 }
 #modalLink:hover {
   color: #336b87;
@@ -166,7 +189,7 @@ body{
   }
   .vl {
     height: 200px;
-    border-left: 6px solid ivory;
+    border-left: 6px solidwhite;
 
   }
   .navbar-brand {
@@ -198,7 +221,7 @@ body{
   .vl {
     margin-left: 0px;
     height: 200px;
-    border-left: 6px solid ivory;
+    border-left: 6px solidwhite;
   }
   .card {
     margin-left: 30px;

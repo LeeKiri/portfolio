@@ -18,10 +18,10 @@ function Nav() {
                         <a className="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/portfolio">Portfolio</a>
+                        <a className="nav-link" href="/projects">Portfolio</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#contactList">Contact</a>
+                        <a className="nav-link" href="/#contactForm">Contact</a>
                     </li>
                 </ul>
             </div>

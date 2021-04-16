@@ -14,13 +14,15 @@ const ContactForm = () => {
   return (
     <>
       <form
+        className="form"
         action="mailto:leekiritempleton@gmail.com"
         method="POST"
         enctype="multipart/form-data"
         name="EmailForm"
+        id="contactForm"
       >
         <div className="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
+          <label className="text-white" for="exampleFormControlInput1">Email address</label>
           <input
             name="email"
             className="form-control"
@@ -32,7 +34,7 @@ const ContactForm = () => {
         </div>
 
         <div className="form-group">
-          <label for="exampleFormControlInput1">Name</label>
+          <label className="text-white" for="exampleFormControlInput1">Name</label>
           <input
             name="user"
             className="form-control"
@@ -44,7 +46,7 @@ const ContactForm = () => {
         </div>
 
         <div className="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <label className="text-white" for="exampleFormControlTextarea1">Message</label>
           <textarea
             className="form-control"
             id="exampleFormControlTextarea1"
@@ -54,7 +56,7 @@ const ContactForm = () => {
             onChange={handleChange}
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-secondary mb-2">
+        <button type="submit" className="formBtn btn btn-secondary mb-2">
           Submit
         </button>
       </form>
