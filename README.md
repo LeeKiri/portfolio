@@ -16,12 +16,12 @@ I've used React, HTML, Bootstrap, Javascript, CSS and fontawesome icons.
 * JavaScript
 * Bootstrap
 * HTML
-* Node.js
-* Heroku
+* gh-pages
+* Git
 * JSX
 
 ### URL
-https://portfolio-leekiri.herokuapp.com/
+https://leekiri.github.io/portfolio/
 ### GitHub Repository
 https://github.com/LeeKiri/portfolio
 ### Screenshots

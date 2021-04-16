@@ -12,10 +12,10 @@ function App() {
       <div className="app">
         <Nav />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/portfolio/">
             <Home />
           </Route>
-          <Route exact path="/projects">
+          <Route exact path="/portfolio/projects">
             <Projects cards={cards}/>
           </Route>
         </Switch>
