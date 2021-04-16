@@ -5,17 +5,25 @@ This is my professional portfolio showcasing my skillset through projects.
 Users can read all about me on the homepage and select hyperlinks to view my Linkedin profile, Github, a PDF resume and contact details. 
 
 ## Design
-I've used HTML, Bootstrap, Javascript, CSS and fontawesome icons.
+I've used React, HTML, Bootstrap, Javascript, CSS and fontawesome icons.
 
 * On the portfolio page users can explore each project by clicking the 'View More' button and a modal appears with details and hyperlinks to the repo and the deployed project.
 
 * Responsive Design. 
 
-### URL
-https://leekiri.github.io/Fullstack-portfolio/
-### GitHub Repository
-https://github.com/LeeKiri/Fullstack-portfolio
+## Technology
+* React
+* JavaScript
+* Bootstrap
+* HTML
+* Node.js
+* Heroku
+* JSX
 
+### URL
+https://portfolio-leekiri.herokuapp.com/
+### GitHub Repository
+https://github.com/LeeKiri/portfolio
 ### Screenshots
 Large Screen View- Home Page
 
@@ -23,15 +31,12 @@ Large Screen View- Home Page
 
 Medium Screen View- Home Page featuring skillset tech icons
 
-![port8](https://user-images.githubusercontent.com/73642462/111426447-c7896f00-8748-11eb-9f44-456a552bac62.PNG)
+![port-md-new](https://user-images.githubusercontent.com/73642462/114956249-d1b2a080-9ea1-11eb-8fb6-7bd3cbc5152d.PNG)
 
 Small Screen View- Project Page
 
 ![port6](https://user-images.githubusercontent.com/73642462/111426459-c9ebc900-8748-11eb-9544-b2b729aa6141.PNG)
 
-Medium Screen View- Portfolio Page
-
-![port7](https://user-images.githubusercontent.com/73642462/111426460-c9ebc900-8748-11eb-822a-372f44de5839.PNG)
 
 Portfolio Page Modal
 
