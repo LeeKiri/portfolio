@@ -8,7 +8,7 @@ const Footer = () => {
         className="card-footer bg-secondary footer-font-style footer-position"
         id="footer"
       >
-        <h6 className="text-center text-light">This website was built with React, JavaScript, Node.js and Bootstrap
+        <h6 className="text-center text-light">This website was built with React, JavaScript, Git and Bootstrap
           &copy; Lee Templeton 2021 
         </h6>
       </div>
