@@ -47,9 +47,9 @@ export const cards = [
     github: "https://github.com/LeeKiri/WellMe-app",
     url: "https://wellme-leekiri.herokuapp.com/",
     screenshots: [
-      "assets/screenshots/wellme1.PNG",
-      "assets/screenshots/wellme2.PNG",
-      "assets/screenshots/well3.PNG",
+      "/assets/screenshots/wellme1.PNG",
+      "/assets/screenshots/wellme2.PNG",
+      "/assets/screenshots/well3.PNG",
     ],
   },
   {
@@ -86,7 +86,7 @@ export const cards = [
     testing: "",
     github: "https://github.com/LeeKiri/handlebars-burger",
     url: "https://burger-leekiri.herokuapp.com/",
-    screenshots: ["assets/screenshots/eatdabur.PNG"],
+    screenshots: ["/assets/screenshots/eatdabur.PNG"],
   },
   {
     title: "Melbourne Reboot App",

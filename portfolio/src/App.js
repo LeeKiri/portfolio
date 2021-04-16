@@ -8,14 +8,14 @@ import { cards } from "./utils/db"
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="app">
         <Nav />
         <Switch>
-          <Route exact path="/portfolio/">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/portfolio/projects">
+          <Route exact path="/projects">
             <Projects cards={cards}/>
           </Route>
         </Switch>
