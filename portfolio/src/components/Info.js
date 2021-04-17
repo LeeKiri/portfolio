@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { ExternalLink } from 'react-external-link';
 
 const InfoSection = () => {
   return (
@@ -10,8 +10,8 @@ const InfoSection = () => {
               Full Stack Web Developer
             </h3>
             <p id="mainBannerP" className="text-left">
-              Hi, I'm Lee. I'm Link  Full Stack Web Developer with Link  Certificate
-              from Monash University and Link  background in Education. Expertise in
+              Hi, I'm Lee. I'm a  Full Stack Web Developer with a  Certificate
+              from Monash University and a  background in Education. Expertise in
               communication, leadership and time management. I’m inspired by
               Software Development as it fuels my love of learning.
             </p>
@@ -19,7 +19,7 @@ const InfoSection = () => {
             <p id="mainBannerP" className="text-left">
               I enjoy sharing knowledge and contributing to challenging projects
               in agile environments. I recently incorporated user authentication
-              on Link  members page using bcrypt and passport npm packages. My drive
+              on a  members page using bcrypt and passport npm packages. My drive
               and resilience motivates me to persevere and create solutions.
             </p>
 
@@ -40,62 +40,61 @@ const InfoSection = () => {
           {/* <!-- contact details --> */}
           <div className="col-md-12 col-lg-4">
             <img
-              src="assets\resize\head1.jpg"
+              src={`${process.env.PUBLIC_URL}/assets/resize/head1.jpg`}
               id="imgHeadshot"
               alt="headshot"
             />
             <aside id="list">
               <div id="contactList" className="vl">
                 <h5>
-                  <Link 
-                    to="https://github.com/LeeKiri"
+                  <a 
+                    href="https://github.com/LeeKiri"
                     target="_blank"
                     rel="noreferrer"
                     title="Go to profile"
                   >
-                    <i className="fab fa-github"></i> GitHub Profile{" "}
-                  </Link >
+                    <i className="fab fa-github"></i> GitHub Profile
+                  </a >
                 </h5>
                 <h5>
-                  <Link 
-                    to="www.linkedin.com/in/lee-k-templeton"
+                  <ExternalLink
+                    href="https://linkedin.com/in/lee-k-templeton"
                     target="_blank"
                     rel="noreferrer"
-                    title="Go to profile"
-                  >
+                    title="Go to profile">
                     <i className="fab fa-linkedin"></i> Linkedin
-                  </Link >
+                    </ExternalLink>
                 </h5>
                 <h5>
-                  <Link 
-                    to="assets/LeeTempleton-Go.pdf "
+                  <a 
+                    href={`${process.env.PUBLIC_URL}/assets/LeeTempleton-Go.pdf`}
                     target="_blank"
                     rel="noreferrer"
                     title="Go to profile"
                   >
                     <i className="fas fa-file"></i> Resume
-                  </Link >
+                  </a >
                 </h5>
                 <h5>
-                  <Link 
-                    to="portfolio.html"
+                  <a 
+                    href="portfolio.html"
                     target="_blank"
                     rel="noreferrer"
                     title="Go to profile"
                   >
                     <i className="fas fa-code-branch"></i> Projects
-                  </Link >
+                  </a >
                 </h5>
 
                 <h5>
                   <i className="fas fa-envelope"></i>
-                  <Link  to="mailto:leekiritempleton@gmail.com">
+                  <a  href="mailto:leekiritempleton@gmail.com">
                     leekiritempleton@gmail.com
-                  </Link >
+                  </a >
                 </h5>
                 <h5>
                   <i className="fas fa-phone-square-alt"></i>
-                  <Link  to="tel:+61423201885"> +61 423201885</Link >
+                  <a  href="tel:+61423201885"> +61 423201885</a >
                 </h5>
               </div>
             </aside>

@@ -1,12 +1,9 @@
-import { Link } from "react-router-dom";
-
 const Card = ({ cardData: card }) => {
-    console.log("card", card)
   return (
     <>
         <div className="col-lg-4 col-md-6 col-sm-10">
           <div className="card">
-            <img src={card.thumbnail} className="card-img-top" alt={card.alt} />
+            <img src={`${process.env.PUBLIC_URL}/${card.thumbnail}`} className="card-img-top" alt={card.alt} />
             <div className="card-body">
               <h5 className="card-title">{card.title}</h5>
               <p className="card-text">{card.intro}</p>
@@ -80,8 +77,8 @@ const Card = ({ cardData: card }) => {
                         </>
                       )}
                       <h6>
-                        <Link
-                          to={card.github}
+                        <a
+                          href={card.github}
                           target="_blank"
                           rel="noreferrer"
                           title="Go to profile"
@@ -89,11 +86,11 @@ const Card = ({ cardData: card }) => {
                         >
                           <i className="fab fa-github cardLink"></i>
                           Github Repository
-                        </Link>
+                        </a>
                       </h6>
                       <h6>
-                        <Link
-                          to={card.url}
+                        <a
+                          href={card.url}
                           target="_blank"
                           rel="noreferrer"
                           title="Go to profile"
@@ -101,12 +98,12 @@ const Card = ({ cardData: card }) => {
                         >
                           <i className="fas fa-eye cardLink"></i>
                           Visit Project
-                        </Link>
+                        </a>
                       </h6>
                       <br />
                       {card.screenshots.map((x) => (
                         <img
-                          src={x}
+                          src={`${process.env.PUBLIC_URL}/${x}`}
                           className="mw-100"
                           alt="project screenshot"
                         />

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../App.css";
 
 function Nav() {
@@ -13,16 +13,16 @@ function Nav() {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul className="nav navbar-nav me-auto mb-2 mb-lg-0">
+                <ul className="nav navbar-nav ml-auto mr-5 mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                        <NavLink className="nav-link" activeClassName="active" aria-current="page" to="/">Home</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/projects">Portfolio</Link>
+                        <NavLink className="nav-link" activeClassName="active" to="/projects">Portfolio</NavLink>
                     </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/#contactForm">Contact</Link>
-                    </li>
+                    {/* <li className="nav-item">
+                        <NavLink className="nav-link" activeClassName="active" to="/contactForm">Contact</NavLink>
+                    </li> */}
                 </ul>
             </div>
         </div>

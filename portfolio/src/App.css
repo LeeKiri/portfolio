@@ -12,6 +12,9 @@
 .navbar{
   padding: 0px !important;
 }
+.active{
+  font-weight: 700 !important;
+}
 .navbar-brand {
   font-family: "Noto Serif", serif;
   font-size: 2rem !important;
@@ -19,6 +22,7 @@
 }
 .nav-item {
   font-family: "Asap", sans-serif;
+  letter-spacing: .1em;
 }
 #footer {
   background-color: #2a3132 !important;
