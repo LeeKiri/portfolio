@@ -12,7 +12,7 @@ function App() {
       <div className="app">
         <Nav />
         <Switch>
-          <Route exact path="/">
+          <Route exact path={`${process.env.PUBLIC_URL}/`}>
             <Home />
           </Route>
           <Route exact path="/projects">

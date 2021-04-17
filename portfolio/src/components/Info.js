@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const InfoSection = () => {
   return (
     <>
@@ -8,8 +10,8 @@ const InfoSection = () => {
               Full Stack Web Developer
             </h3>
             <p id="mainBannerP" className="text-left">
-              Hi, I'm Lee. I'm a Full Stack Web Developer with a Certificate
-              from Monash University and a background in Education. Expertise in
+              Hi, I'm Lee. I'm Link  Full Stack Web Developer with Link  Certificate
+              from Monash University and Link  background in Education. Expertise in
               communication, leadership and time management. I’m inspired by
               Software Development as it fuels my love of learning.
             </p>
@@ -17,7 +19,7 @@ const InfoSection = () => {
             <p id="mainBannerP" className="text-left">
               I enjoy sharing knowledge and contributing to challenging projects
               in agile environments. I recently incorporated user authentication
-              on a members page using bcrypt and passport npm packages. My drive
+              on Link  members page using bcrypt and passport npm packages. My drive
               and resilience motivates me to persevere and create solutions.
             </p>
 
@@ -45,55 +47,55 @@ const InfoSection = () => {
             <aside id="list">
               <div id="contactList" className="vl">
                 <h5>
-                  <a
-                    href="https://github.com/LeeKiri"
+                  <Link 
+                    to="https://github.com/LeeKiri"
                     target="_blank"
                     rel="noreferrer"
                     title="Go to profile"
                   >
                     <i className="fab fa-github"></i> GitHub Profile{" "}
-                  </a>
+                  </Link >
                 </h5>
                 <h5>
-                  <a
-                    href="www.linkedin.com/in/lee-k-templeton"
+                  <Link 
+                    to="www.linkedin.com/in/lee-k-templeton"
                     target="_blank"
                     rel="noreferrer"
                     title="Go to profile"
                   >
                     <i className="fab fa-linkedin"></i> Linkedin
-                  </a>
+                  </Link >
                 </h5>
                 <h5>
-                  <a
-                    href="assets/LeeTempleton-Go.pdf "
+                  <Link 
+                    to="assets/LeeTempleton-Go.pdf "
                     target="_blank"
                     rel="noreferrer"
                     title="Go to profile"
                   >
                     <i className="fas fa-file"></i> Resume
-                  </a>
+                  </Link >
                 </h5>
                 <h5>
-                  <a
-                    href="portfolio.html"
+                  <Link 
+                    to="portfolio.html"
                     target="_blank"
                     rel="noreferrer"
                     title="Go to profile"
                   >
                     <i className="fas fa-code-branch"></i> Projects
-                  </a>
+                  </Link >
                 </h5>
 
                 <h5>
                   <i className="fas fa-envelope"></i>
-                  <a href="mailto:leekiritempleton@gmail.com">
+                  <Link  to="mailto:leekiritempleton@gmail.com">
                     leekiritempleton@gmail.com
-                  </a>
+                  </Link >
                 </h5>
                 <h5>
                   <i className="fas fa-phone-square-alt"></i>
-                  <a href="tel:+61423201885"> +61 423201885</a>
+                  <Link  to="tel:+61423201885"> +61 423201885</Link >
                 </h5>
               </div>
             </aside>

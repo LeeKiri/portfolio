@@ -47,7 +47,7 @@ export const cards = [
     github: "https://github.com/LeeKiri/WellMe-app",
     url: "https://wellme-leekiri.herokuapp.com/",
     screenshots: [
-      "/assets/screenshots/wellme1.PNG",
+      "../../assets/screenshots/wellme1.PNG",
       "/assets/screenshots/wellme2.PNG",
       "/assets/screenshots/well3.PNG",
     ],

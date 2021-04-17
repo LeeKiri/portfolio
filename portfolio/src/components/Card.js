@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Card = ({ cardData: card }) => {
     console.log("card", card)
   return (
@@ -78,8 +80,8 @@ const Card = ({ cardData: card }) => {
                         </>
                       )}
                       <h6>
-                        <a
-                          href={card.github}
+                        <Link
+                          to={card.github}
                           target="_blank"
                           rel="noreferrer"
                           title="Go to profile"
@@ -87,11 +89,11 @@ const Card = ({ cardData: card }) => {
                         >
                           <i className="fab fa-github cardLink"></i>
                           Github Repository
-                        </a>
+                        </Link>
                       </h6>
                       <h6>
-                        <a
-                          href={card.url}
+                        <Link
+                          to={card.url}
                           target="_blank"
                           rel="noreferrer"
                           title="Go to profile"
@@ -99,7 +101,7 @@ const Card = ({ cardData: card }) => {
                         >
                           <i className="fas fa-eye cardLink"></i>
                           Visit Project
-                        </a>
+                        </Link>
                       </h6>
                       <br />
                       {card.screenshots.map((x) => (
