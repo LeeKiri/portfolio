@@ -5,9 +5,14 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { cards } from "./utils/db"
+import {useEffect} from "react"
 
 function App() {
+  useEffect(()=> {
+    console.log(process.env.PUBLIC_URL)
+  }, [])
   return (
+
     <Router basename={process.env.PUBLIC_URL}>
       <div className="app">
         <Nav />
