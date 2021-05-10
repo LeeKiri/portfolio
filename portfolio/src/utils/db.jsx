@@ -1,6 +1,59 @@
 export const cards = [
   {
-    title: <>Well<i className="fas fa-heart"></i>Me App</>,
+    title: <>Yuki Cat Rescue App</>,
+    intro:
+      "Yuki is an app to support people that adopt a cat from a shelter or rescue a stray. Membership includes community chat rooms, tracking and a video library.",
+    introTech: "MERN stack",
+    thumbnail: "/assets/card-images/cat4.jpg",
+    alt: "cute cat",
+    target: "#modalYuki",
+    dataName: "yuki",
+    id: "modalYuki",
+    description:
+      "This was the final solo project while studying the Web Development Bootcamp at Monash University.",
+    functionality: [
+      "Users sign-up by entering their details as well as their cats details and the adoption date. ",
+      "They can track special events or significant moments including vet appointments, bonding or health issues.",
+      "There are a number of chat rooms members can join to talk about topics related to their cats journey from health, diet, socializing or general chat. ",
+      "Members are authenticated and only given acces to restricted pages when their username and email is confirmed with passport and bcrypt.",
+    ],
+    myContributions: [
+      "I did everything on this project including; project management, design, front end and back end."
+    ],
+    technology: [
+      "React, useState, useEffect, Custom hook, Conditional Rendering.",
+      "JavaScript",
+      "Node.js",
+      "MongoDB and Mongoose",
+      "Heroku & Mongo Atlas",
+      "Express and Express-session",
+      "Scoket.io",
+      "GitHub",
+      "HTML, CSS and Bootstrap",
+      "Multer",
+      "Passport npm",
+      "bcrypt npm",
+      "Postman",
+      "ESLint and Travis CI"
+    ],
+    github: "https://github.com/LeeKiri/yuki-app",
+    url: "https://yuki-app-leekiri.herokuapp.com/",
+    screenshots: [
+      "./assets/screenshots/yu1.PNG",
+      "/assets/screenshots/yu3.PNG",
+      "/assets/screenshots/yu5.PNG",
+      "/assets/screenshots/yu7.PNG",
+      "/assets/screenshots/yu16.PNG",
+      "/assets/screenshots/yu17.PNG",
+      "/assets/screenshots/yu18.PNG",
+    ],
+  },
+  {
+    title: (
+      <>
+        Well<i className="fas fa-heart"></i>Me App
+      </>
+    ),
     intro:
       "Well Me is a Full Stack App where users can track their wellness journey by setting goals and finding inspiration.",
     introTech: "JavaScript, Node.js, MySQL, Express",
