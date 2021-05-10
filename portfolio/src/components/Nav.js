@@ -15,7 +15,7 @@ function Nav() {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul className="nav navbar-nav ml-auto mr-5 mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <NavLink className="nav-link" activeClassName="active" aria-current="page" to="/">Home</NavLink>
+                        <NavLink className="nav-link" activeClassName="active" aria-current="page" exact to="/">Home</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link" activeClassName="active" to="/projects">Portfolio</NavLink>
