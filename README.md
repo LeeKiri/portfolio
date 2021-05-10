@@ -1,4 +1,4 @@
-# Full Stack Web Development Portfolio
+# Web Development Portfolio
 This is my professional portfolio showcasing my skillset through projects. 
 
 ## Description
